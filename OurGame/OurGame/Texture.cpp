@@ -22,7 +22,7 @@ void Texture::free()
 	}
 }
 
-bool Texture::loadFromFile(std::string path, SDL_Renderer* renderer)
+bool Texture::LoadFromFile(std::string path, SDL_Renderer* renderer)
 {	
 	SDL_Texture* optimizedTexture = nullptr;
 	SDL_Surface* loadedSurface = IMG_Load(path.c_str());

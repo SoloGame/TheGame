@@ -57,9 +57,6 @@
     <ClCompile Include="Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TilingDemo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Texture.h">
@@ -103,9 +100,6 @@
     </ClInclude>
     <ClInclude Include="ComputerPlayer.h">
       <Filter>Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="TilingDemo.h">
-      <Filter>Header Files\Engine\States</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

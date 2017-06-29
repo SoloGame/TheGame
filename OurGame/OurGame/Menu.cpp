@@ -1,11 +1,10 @@
 #include "Menu.h"
-#include "TilingDemo.h"
 
 Menu Menu::m_Menu;
 
 void Menu::Init(GameEngine * game)
 {
-	m_Background.loadFromFile("imgs/menubg.png", game->window->getRenderer());
+	m_Background.LoadFromFile("imgs/menubg.png", game->window->getRenderer());
 }
 
 void Menu::CleanUp()
@@ -37,7 +36,7 @@ void Menu::HandleEvents(GameEngine * game)
 		case SDL_KEYDOWN:
 			switch (event.key.keysym.sym) {
 			case SDLK_SPACE:
-				game->ChangeState(TilingDemo::Instance());
+			//	game->ChangeState(Menu::Instance());
 				break;
 			case SDLK_ESCAPE:
 				game->Quit();

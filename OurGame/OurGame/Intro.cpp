@@ -6,7 +6,7 @@ Intro Intro::m_Intro;
 void Intro::Init(GameEngine* game)
 {	
 
-	m_Background.loadFromFile("imgs/intro.png", game->window->getRenderer());
+	m_Background.LoadFromFile("imgs/intro.png", game->window->getRenderer());
 }
 
 void Intro::CleanUp()

@@ -15,8 +15,8 @@ public:
 	//deallocate internals
 	void free();
 	//window dimensions
-	int getWidth() { return m_Width; }
-	int getHeight() { return m_Height; }
+	int getWidth();
+	int getHeight();
 
 	//Window focii
 	bool hasMouseFocus();
