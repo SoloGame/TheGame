@@ -57,6 +57,9 @@
     <ClCompile Include="Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TilingDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Texture.h">
@@ -101,6 +104,9 @@
     <ClInclude Include="ComputerPlayer.h">
       <Filter>Header Files\Entities</Filter>
     </ClInclude>
+    <ClInclude Include="TilingDemo.h">
+      <Filter>Header Files\Engine\States</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="imgs\Intro.png">
@@ -109,5 +115,13 @@
     <Image Include="imgs\Menubg.png">
       <Filter>Resource Files\imgs</Filter>
     </Image>
+    <Image Include="imgs\tiles.png">
+      <Filter>Resource Files\imgs</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lazy.map">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

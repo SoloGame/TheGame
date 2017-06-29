@@ -16,8 +16,13 @@ Tile::Tile(int x, int y, int tileType)
 
 }
 
-void Tile::render(GameEngine * Game, SDL_Rect & camera)
+void Tile::renderTile(GameEngine * game, SDL_Rect * camera, Texture * texture, SDL_Rect * tileClips)
 {
-
+	//If the tile is on screen
+	if (checkCollision(camera, &m_Collider))
+	{
+		//Show the tile
+		texture->render({ m_PosX - camera->x, m_PosY - camera->y }, game->window->getRenderer(), &tileClips[m_TileType]);
+	}
 }
 
