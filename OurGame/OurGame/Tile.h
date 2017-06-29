@@ -3,6 +3,8 @@
 #include <SDL.h>
 //Tile constants
 #include "GameEngine.h"
+#include "Functions.h"
+
 //Tile constants
 const int TILE_WIDTH = 80;
 const int TILE_HEIGHT = 80;
@@ -29,13 +31,13 @@ public:
 	~Tile() {}
 
 	//show the box
-	void render(GameEngine* Game, SDL_Rect& camera);
+	void renderTile(GameEngine *game, SDL_Rect *camera, Texture *TileTexture, SDL_Rect TileClips[]);
 
 	//Get the tile type
 	int getType() { return m_TileType; }
 
 	//Get the collision box
-	SDL_Rect getCollisionBox() { return m_Collider; }
+	SDL_Rect* getCollisionBox() { return &m_Collider; }
 
 	//return position
 
@@ -48,6 +50,7 @@ private:
 
 	//type of tile
 	int m_TileType;
+	
 };
 
 #endif // !TILE_H

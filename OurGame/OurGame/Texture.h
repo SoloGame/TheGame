@@ -11,7 +11,7 @@ public:
 	// deallocates texture
 	void free();
 
-	bool LoadFromFile(std::string path, SDL_Renderer* renderer);
+	bool loadFromFile(std::string path, SDL_Renderer* renderer);
 	//bool LoadFromRenderedText();
 		
 	//set colour modulation
