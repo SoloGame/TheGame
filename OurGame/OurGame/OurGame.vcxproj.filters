@@ -22,6 +22,9 @@
     <Filter Include="Header Files\Engine\States">
       <UniqueIdentifier>{bfd03140-387d-4300-900b-5ac4cd9ebc91}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{fdca13ba-963a-4a2d-b0ba-716096d014c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -46,6 +49,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,32 +83,30 @@
     <ClInclude Include="State.h">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="libjpeg-9.dll">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="libpng16-16.dll">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="libtiff-5.dll">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="libwebp-4.dll">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="SDL2.dll">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="SDL2_image.dll">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="zlib1.dll">
-      <Filter>Resource Files</Filter>
-    </None>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanPlayer.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerPlayer.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="imgs\Intro.png">
+      <Filter>Resource Files\imgs</Filter>
+    </Image>
+    <Image Include="imgs\Menubg.png">
       <Filter>Resource Files\imgs</Filter>
     </Image>
   </ItemGroup>

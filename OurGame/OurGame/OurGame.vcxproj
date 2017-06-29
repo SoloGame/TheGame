@@ -118,36 +118,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Functions.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Play.cpp" />
     <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Tile.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ComputerPlayer.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Creature.h" />
+    <ClInclude Include="Functions.h" />
     <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="HumanPlayer.h" />
     <ClInclude Include="Intro.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Play.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Texture.h" />
+    <ClInclude Include="Tile.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="libjpeg-9.dll" />
-    <None Include="libpng16-16.dll" />
-    <None Include="libtiff-5.dll" />
-    <None Include="libwebp-4.dll" />
-    <None Include="SDL2.dll" />
-    <None Include="SDL2_image.dll" />
-    <None Include="zlib1.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="imgs\Intro.png" />
+    <Image Include="imgs\Menubg.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
