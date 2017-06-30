@@ -1,5 +1,14 @@
 # TheGame
-Simple Game to learn with
+
+This is just a Simple Game to learn SDL2 and Game Development with.
+
+History:
+We met on Sololearn (sololearn.com) and decided we would try to collaborate to try and make a game with our new found skills! This is the result.
+
+Special Thanks to:
+sololearn - sololearn.com
+lazyfoo lazyfoo.net
+and the entire internet development community!
 
 Required to build project 
 
